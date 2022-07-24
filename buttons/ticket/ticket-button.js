@@ -19,7 +19,7 @@ module.exports = {
                 SEND_MESSAGES: false,
                 EMBED_LINKS: false,
                 VIEW_CHANNEL: false,
-                READ_MESSAGE_HISTORY: false
+                READ_MESSAGE_HISTORY: true
             })
 
             await interaction.reply({content: `Votre ticket a été créé avec succès ${channel} !`, ephemeral: true})
